@@ -36,9 +36,9 @@ namespace Lab_3
                     Console.WriteLine(userName + " you entered " + userNumber + " Even and less that 25.");
 
                 else if (testNumber % 2 == 0 && testNumber > 25 && testNumber < 61)
-                    Console.WriteLine(userName + " you entered " + userNumber + " Even");
+                    Console.WriteLine("Even");
 
-                else if (testNumber > 60 && testNumber % 2 == 0)
+                else if (testNumber > 60 && testNumber % 2 != 0)
                     Console.WriteLine(userName + " you entered " + userNumber + " Odd");
 
                 //Check
